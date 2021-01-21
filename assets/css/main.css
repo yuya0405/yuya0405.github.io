@@ -2559,6 +2559,11 @@ input, select, textarea {
 					color: #953d75;
 				}
 
+				/* ？？？ */
+				.wrapper.style4 .icon.major:before {
+					color: #ffffff;
+				}
+
 /* Image */
 
 	.image {
@@ -3261,6 +3266,10 @@ input, select, textarea {
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
+		}
+
+		.wrapper.style4 {
+			background-color: #c49c48;
 		}
 
 		.wrapper.fullscreen {
