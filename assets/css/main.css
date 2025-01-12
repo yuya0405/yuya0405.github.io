@@ -1,5 +1,16 @@
 @import url(fontawesome-all.min.css);
 
+/* target="_blank" を持つリンクにアイコンを追加 */
+
+a[target="_blank"]::after {
+	content: "\f35d"; /* Font Awesome のアイコンコード（例: 外部リンクアイコン） */
+	font-family: "Font Awesome 5 Free"; /* Font Awesome のフォントファミリー */
+	font-weight: 900; /* 必要なら適切なフォントウェイトを指定 */
+	margin-left: 5px; /* アイコンとリンクテキストの間にスペースを追加 */
+	font-size: 0.8em; /* アイコンのサイズを調整 */
+	color: #ffffff;
+  }
+
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
